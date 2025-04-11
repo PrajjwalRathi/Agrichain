@@ -1,0 +1,48 @@
+Manual Test Cases
+
+1: Enter a normal string (e.g., "abcabcbb") and verify the output is 3.
+
+2: Enter a string with no repeating characters (e.g., "abcdef") and verify the output is the full length of the string.
+
+3: Enter a string with all repeating characters (e.g., "aaaaa") and verify the output is 1.
+
+4: Enter a string containing special characters and numbers (e.g., "ab!@#ab!123") and verify the output.
+
+5: Enter an empty string and verify that the application shows appropriate output (e.g., 0 or a message indicating no input).
+
+6: Enter a string with one character and verify the output is 1.
+
+7: Enter a string with Unicode characters (e.g., emojis or accented letters) to test multi-byte characters.
+
+8: Verify the home page loads with the correct layout, form field, and submit button.
+
+9: Verify that after submission, the website navigates to the result page with the proper design and that the result is clearly visible.
+
+10: Verify responsiveness by testing on different device resolutions (desktop, tablet, and mobile).
+
+11: Test the response time by entering a long input string and measuring the time taken to load the result page.
+
+12: Enter unexpected input (e.g., only spaces, extremely long strings) and verify whether the website gracefully handles the input.
+
+13: Check if any client-side or server-side validation is provided and if error messages are user-friendly.
+
+
+Automation Text Cases
+
+1: Valid String: Automate input of "abcabcbb" and verify that the result is 3.
+
+2: Unique Characters: Automate input of "abcdef" and verify that the length is 6.
+
+3: Repeating Characters: Automate input of "aaaaa" and verify that the length is 1.
+
+4: Automate input of an empty string and verify correct handling (e.g., output 0 or proper error message).
+
+5: Automate input containing only one character.
+
+6: Verify that the input field, submit button, and result text element exist and are visible on the respective pages.
+
+7: Confirm that clicking the submit button navigates from the home page to the result page.
+
+8: Automate input of invalid characters if any restrictions exist (for example, if only alphanumeric characters are allowed) and verify error messages.
+
+9: Automate tests to verify the behavior when the network is slow or when a page fails to load.
