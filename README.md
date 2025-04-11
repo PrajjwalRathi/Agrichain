@@ -1,4 +1,4 @@
-Problem 1:
+<h1>Problem 1:</h1>
 
 
 Program for following:
@@ -9,8 +9,7 @@ Given a string, find the length of the longest substring without repeating chara
 Note: You can choose a programming language of your own choice.
 
 
-
-Problem 2:
+<h1>Problem 2:</h1>
 
 
 Assume there is a website https://agrichain.com which does exactly the same thing as problem 1, it takes the input on home page and then on click of submit button, it navigates to different page where it prints the output for longest substring without repeating letters.
@@ -23,7 +22,7 @@ Write web automation script for any one test case that you have mentioned above 
 Note: There isn't an actual website for this, you can assume locators for all web elements on both pages as per the design shown in above screenshots.
 
 
-Key Points:
+<h3>Key Points:</h3>
 
 - Make sure logic of problem 1 is correct
 - Test Cases in Problem 2
